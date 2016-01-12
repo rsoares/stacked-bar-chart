@@ -4,6 +4,8 @@ This is a dead simple directive that implements a basic AngularJS directive for 
 * Angular 1.3.x
 * Globally available d3 object
 
+The code is based on [this example](http://bl.ocks.org/mbostock/3886208).
+
 ## Install
 
 For now, I'd suggest to use **npm** and [napa](https://github.com/shama/napa) to install the module.
@@ -84,6 +86,7 @@ angular.module( "app" )
 * Tidy up the code and add tests;
 * Make this a proper package;
 * Accept CSS classes to style bars, axis and other relevant elements;
+* Animate bars drawing;
 * ...
 
 ## License
